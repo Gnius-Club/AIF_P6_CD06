@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudadanía Digital 6: Ópalo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">🧑‍💻</span> <strong>Ciudadanía Digital Misión 6: Ópalo</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">👁️</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Comprender la autonomía en la gestión de seguridad digital.</li>
+                                        <li>Tomar decisiones inteligentes frente a riesgos digitales.</li>
+                                        <li>Introducir el comportamiento preventivo autónomo.</li>
+                                        <li>Crear una guía o Checklist preventivo para otros.</li>
+                                        <li>Reflexionar sobre el rol de los usuarios en detener la difusión de fraudes digitales.</li>
+                                        <li>Desarrollar estrategias personales y colectivas para identificar, prevenir y responder ante trampas digitales, promoviendo el autocuidado y la educación de pares.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">Recuerdo Relámpago</strong></li>
+                                        <li><strong class="tactic-highlight">Conexión Ada</strong></li>
+                                        <li><strong class="tactic-highlight">Challenge Express: La Guía de Supervivencia Digital</strong></li>
+                                        <li><strong class="tactic-highlight">Ticket de Salida/Tweet de Aprendizaje</strong></li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Diseño de una "Guía de Supervivencia Digital" visual y una declaración personal sobre el rol como educador digital en la comunidad.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Ada" activo y funcionando.</li>
+                                        <li>Presentación de diapositivas.</li>
+                                        <li>Materiales (digitales o físicos) para el Challenge "La Guía de Supervivencia Digital".</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Asegurar disponibilidad y carga de los dispositivos físicos (ej. tabletas, ordenadores).</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Ada" para asegurar su operatividad.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Recuerdo Relámpago ⏰ 5 minutos</h2>
+                <p>Activar conocimientos de la Misión 5 (identificación de phishing) a través de un desafío de aplicación conceptual.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Recuerdo Relámpago ⏰ 3 minutos</h3>
+                            <p>Proyecta Diapositiva 2. Recuerdo Relámpago: El Reto del Orden Perdido.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"“Análisis rápido. Les mostraré los 3 pasos del protocolo de reacción que diseñamos en la misión pasada, pero están desordenados. En equipo, reconstruyan el orden lógico y expliquen por qué es la secuencia más segura. 🤔<br>(En pantalla: Borrar el mensaje, No hacer clic, Bloquear al remitente)”"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Guía una breve reflexión para cambiar el foco de la autoprotección a la protección de la comunidad.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Correcto. El orden más seguro es: No hacer clic, borrar y luego bloquear. Ya saben cómo reaccionar ustedes. Pero, ¿qué pasa con sus amigos, sus padres o sus abuelos? ¿Saben identificar estas trampas? 🤔 Un ópalo es una gema que refleja la luz en muchos colores. Hoy, ustedes van a reflejar su conocimiento para iluminar a otros. Pasaremos de ser reactivos a ser proactivos. Vamos a convertirnos en educadores.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: Conexión Ada ⏰ 22 minutos</h2>
+                <p>Explorar de forma individual la importancia de la educación de pares y analizar ejemplos de guías de seguridad efectivas.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Conexión Ada ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 3. Conexión Ada: Misión Ópalo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Ahora, conéctense a la plataforma. Ada les mostrará por qué detener la difusión de fraudes es una responsabilidad compartida. Analizarán diferentes formatos de guías para ver cuál comunica mejor las ideas. La clave de activación de hoy es: Misión Ópalo ✨. Escríbanla cuando se las pida.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Conexión Ada ⏰ 20 minutos</h3>
+                            <p>Proyecta Diapositiva 4. Timer 20 min.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: Challenge Express: La Guía de Supervivencia Digital ⏰ 10 minutos</h2>
+                <p>Contextualizar la creación de una guía como una misión para proteger a la comunidad de una amenaza creciente.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Challenge Express: La Guía de Supervivencia Digital ⏰ 1 minutos</h3>
+                            <p>Proyecta Diapositiva 5. Challenge Express: La Guía de Supervivencia Digital.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"“Atención. Las estafas de phishing están aumentando y afectan a personas de todas las edades. Nuestro conocimiento es la mejor defensa, pero necesitamos compartirlo. <br>Este es su reto: En equipos de máximo 5 integrantes, van a diseñar una ‘Guía de Supervivencia Digital’. Debe ser una pieza de comunicación visual (un cartel, una infografía, un mini-cómic) que explique de forma clara y rápida cómo detectar una trampa. Piensen que su público objetivo es alguien con menos experiencia digital que ustedes.”"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Challenge Express ⏰ 3 minutos</h3>
+                            <p>Proyecta Diapositiva 6. Pide a los equipos que discutan y elijan los 3 consejos más cruciales que incluirán en su guía.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“No podemos explicarlo todo. Debemos ser directos y efectivos. De todas las señales de alerta que conocemos, elijan las 3 más importantes. Por ejemplo: ‘Revisa el remitente’, ‘Cuidado con la urgencia’, ‘No creas en premios inesperados’. Definan su mensaje central. Tienen 3 minutos para decidir y estructurar su guía.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Challenge Express ⏰ 4 minutos</h3>
+                            <p>Proyecta Diapositiva 7. Pide a los equipos que usen herramientas digitales (Canva, Slides) o materiales físicos para diseñar su guía.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Ahora, diseñen su guía. El objetivo es que sea visualmente atractiva y que el mensaje se entienda en menos de 30 segundos. Usen iconos 🚩, colores de alerta, poco texto y un lenguaje simple. Recuerden, están creando una herramienta para ayudar a otros. La claridad es clave. Tienen 4 minutos.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Challenge Express ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 8. Pide a cada equipo que exponga su guía (en el pizarrón o en una pantalla compartida).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Hemos creado un arsenal de conocimiento. Ahora, vamos a hacer un ‘paseo de galería’. Observen en silencio las guías de los demás equipos. Fíjense en las diferentes estrategias visuales y en los consejos que eligieron. ¿Qué idea de otro equipo les parece especialmente efectiva?”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Ticket de Salida/Tweet de Aprendizaje ⏰ 5 minutos</h2>
+                <p>Sintetizar el aprendizaje en una declaración personal sobre su rol como educadores digitales.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Ticket de Salida/Tweet de Aprendizaje ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 9. Tweet de Aprendizaje.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"“Para cerrar, vamos a reflexionar sobre su nuevo rol. Escriban un tweet que defina qué significa para ustedes ser un educador digital en su comunidad (familia, amigos).<br>Ejemplo del maestro: Ser un educador digital significa compartir lo que sé, para que los que quiero estén más seguros. Mi conocimiento es su escudo. #CompartirParaProteger”"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Ticket de Salida/Tweet de Aprendizaje ⏰ 2 minutos</h3>
+                            <p>Pide a los estudiantes compartir el tweet con un compañero y escuchar su idea.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Compartan su frase con la persona de al lado. ¿Qué tipo de educador quiere ser? ¿En qué se parecen sus enfoques? El análisis mejora con el diálogo.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Ticket de Salida/Tweet de Aprendizaje ⏰ 1 minutos</h3>
+                            <p>Proyecta Diapositiva 10. Reflexión final.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Hoy pasaron de protegerse a sí mismos a proteger a su comunidad. Entendieron que el conocimiento sobre seguridad digital no sirve de nada si se guarda; su verdadero poder está en compartirlo. Se han convertido en un faro para otros. Misión completada.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
